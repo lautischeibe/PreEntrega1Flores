@@ -8,19 +8,19 @@ function App() {
         <h1>Productos Destacados</h1>
         <div className="product-grid">
             <div className="product">
-                <img src="" alt="Producto 1"/>
+                <img src="../public/img/Psyduck.png" alt="Producto 1"/>
                 <h2>Psyduck NFT</h2>
                 <p>$10.00</p>
                 <button>Añadir al carrito</button>
             </div>
             <div className="product">
-                <img src="img/Starmie.png" alt="Producto 2"/>
+                <img src="../public/img/Starmie.png" alt="Producto 2"/>
                 <h2>Starmie NFT</h2>
                 <p>$20.00</p>
                 <button>Añadir al carrito</button>
             </div>
             <div className="product">
-                <img src="img/Gengar.png" alt="Producto 3"/>
+                <img src="../public/img/Gengar.png" alt="Producto 3"/>
                 <h2>Gengar NFT</h2>
                 <p>$30.00</p>
                 <button>Añadir al carrito</button>
