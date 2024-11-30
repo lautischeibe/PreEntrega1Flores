@@ -22,7 +22,25 @@ function App() {
             <div className="product">
                 <img src="img/Gengar.png" alt="Producto 3"/>
                 <h2>Gengar NFT</h2>
-                <p>$30.00</p>
+                <p>$70.00</p>
+                <button>Añadir al carrito</button>
+            </div>
+            <div className="product">
+                <img src="img/Raichu.png" alt="Producto 4"/>
+                <h2>Raichu NFT</h2>
+                <p>$45.00</p>
+                <button>Añadir al carrito</button>
+            </div>
+            <div className="product">
+                <img src="img/Vulpix.png" alt="Producto 5"/>
+                <h2>Vulpix NFT</h2>
+                <p>$40.00</p>
+                <button>Añadir al carrito</button>
+            </div>
+            <div className="product">
+                <img src="img/Venomoth.png" alt="Producto 6"/>
+                <h2>Venomoth NFT</h2>
+                <p>$100.00</p>
                 <button>Añadir al carrito</button>
             </div>
         </div>
