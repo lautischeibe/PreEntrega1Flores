@@ -6,38 +6,7 @@ body {
   background-color: lightblue;
 }
 
-nav{
-  background-color: crimson;
-  color: white;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-nav .logo {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-nav .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav .nav-links li {
-  display: inline;
-}
-
-nav .nav-links a {
-  color: white;
-  text-decoration: none;
-}
-
-nav .nav-links a:hover {
-  text-decoration: underline;
-}
 
 .products {
   padding: 20px;

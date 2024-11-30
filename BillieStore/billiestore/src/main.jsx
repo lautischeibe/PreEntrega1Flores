@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import NavBar from './components/NavBar.jsx'
+import NavBar from './components/NavBar/NavBar.jsx'
 import './index.css'
 import App from './App.jsx'
 
