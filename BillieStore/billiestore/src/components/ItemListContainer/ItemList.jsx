@@ -3,11 +3,11 @@ import Item from './Item'
 
 const ItemList = ({pokemons}) => {
   return (
-    <div>
-        <ul>
+    <div className='products'>
             <h2>Pokemons</h2>
+            <div className='product-grid'>
             {pokemons.map((pokemon) => <Item key={pokemon.name} pokemon={pokemon}/>) }
-        </ul>
+            </div>
     </div>
   )
 }
