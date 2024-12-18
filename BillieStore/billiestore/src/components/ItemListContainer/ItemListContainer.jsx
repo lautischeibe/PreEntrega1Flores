@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getPokemon } from '../Helpers/getpokemon';
+import { getPokemon } from '../Helpers/getPokemon';
 import ItemList from './ItemList';
 
 const ItemListContainer = () => {

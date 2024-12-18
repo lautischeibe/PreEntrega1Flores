@@ -15,6 +15,18 @@ body {
   margin-bottom: 20px;
 }
 
+.products button {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.products button:hover {
+  background-color: #555;
+}
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
