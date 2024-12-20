@@ -8,6 +8,7 @@ body {
 
 .products {
   padding: 20px;
+  padding-bottom: 100px
 }
 
 .products h1 {
@@ -31,7 +32,6 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding-bottom: 80px
 }
 
 .product {
@@ -67,3 +67,19 @@ body {
   background-color: #555;
 }
 
+.item-detail-container { 
+  padding: 10px; 
+  border: 1px solid black; 
+  max-width: 700px; /* Define el ancho máximo */ 
+  margin: 20px auto; /* Centra el contenido y añade un margen superior/inferior */
+  margin-bottom: 160px;
+}
+
+.ver-mas {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}

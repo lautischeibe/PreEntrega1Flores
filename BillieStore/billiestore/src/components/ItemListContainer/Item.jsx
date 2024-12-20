@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Item = ({ pokemon }) => {
   return (
@@ -7,7 +8,7 @@ const Item = ({ pokemon }) => {
                 <p>${pokemon.precio}</p>
                 <img src={pokemon.img} alt={pokemon.name} />
                 <p>{pokemon.description}</p>
-                <button>Comprar</button>
+                <Link className="ver-mas" href={`/item/${pokemon.id}`}>Ver más</Link>
             </div>
   );
 };
