@@ -3,11 +3,11 @@ import {FaShoppingCart} from "react-icons/fa";
 import "./CartWidget.css";
 
 function CartWidget() {
-    const productosEnCarrito = 5;
+    const productosEnCarrito = 0;
 
     return (
     <div className="cart-widget">
-        <FaShoppingCart size={15} />
+        <FaShoppingCart size={25} />
         <span className="badge">{productosEnCarrito}</span>
     </div>
     );
