@@ -8,7 +8,9 @@ const Item = ({ pokemon }) => {
                 <p>${pokemon.precio}</p>
                 <img src={pokemon.img} alt={pokemon.name} />
                 <p>{pokemon.description}</p>
+                <br />
                 <Link className="ver-mas" to={`/item/${pokemon.id}`}>Ver más</Link>
+
             </div>
   );
 };

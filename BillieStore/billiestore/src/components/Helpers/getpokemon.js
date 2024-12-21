@@ -135,6 +135,15 @@ const pokemon =
         stock: 4,
         description: 'Pokemon tipo agua',
     },
+    {
+        id: 16,
+        name: 'Jynx',
+        precio: 8900,
+        categoria: 'psiquico',
+        img: '/img/Jynx.png',
+        stock: 4,
+        description: 'Pokemon tipo psiquico',
+    },
 ]
 
 export const getPokemon = () => {

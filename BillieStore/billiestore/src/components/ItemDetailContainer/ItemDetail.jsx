@@ -28,7 +28,7 @@ return (
             <p className="categoria">Categoria: {item.categoria}</p>
             <p className="precio">${item.precio}</p>
             <p className="stock">Stock: {item.stock}</p>
-            <ItemCounter cantidad={cantidad} handleSumar={handleSumar} handleRestar={handleRestar} handleSumar={handleSumar} handleAgregar={handleAgregar}/>
+            <ItemCounter cantidad={cantidad} handleSumar={handleSumar} handleRestar={handleRestar} handleAgregar={handleAgregar}/>
             <button>Comprar</button>
         </div>
         </div>

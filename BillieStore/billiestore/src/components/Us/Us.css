@@ -1,0 +1,14 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: start;
+}
+
+.formulario input{
+    padding: .5rem;
+    width: 18rem;
+    border-radius: .5rem;
+    border: 2px solid crimson;
+}
+
